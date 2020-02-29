@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="48" started-at="2020-01-24T09:30:12 EST" finished-at="2020-01-24T09:30:12 EST">
+    <groups>
+      <group name="Regression">
+        <method signature="LeaveModule.validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@3dd4520b]" name="validateLeaveModule" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="PimModule.validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@23e028a9]" name="validatePimModule" class="com.syntax.testcases.PimModule"/>
+        <method signature="ReportModule.validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@47ef968d]" name="validateReportModule" class="com.syntax.testcases.ReportModule"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LeaveModule.validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@3dd4520b]" name="validateLeaveModule" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="PimModule.validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@23e028a9]" name="validatePimModule" class="com.syntax.testcases.PimModule"/>
+        <method signature="ReportModule.validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@47ef968d]" name="validateReportModule" class="com.syntax.testcases.ReportModule"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="48" started-at="2020-01-24T09:30:12 EST" finished-at="2020-01-24T09:30:12 EST">
+      <class name="com.syntax.testcases.ReportModule">
+        <test-method status="PASS" signature="validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@47ef968d]" name="validateReportModule" duration-ms="10" started-at="2020-01-24T09:30:12 EST" finished-at="2020-01-24T09:30:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReportModule -->
+      </class> <!-- com.syntax.testcases.ReportModule -->
+      <class name="com.syntax.testcases.LeaveModule">
+        <test-method status="PASS" signature="validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@3dd4520b]" name="validateLeaveModule" duration-ms="1" started-at="2020-01-24T09:30:12 EST" finished-at="2020-01-24T09:30:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeaveModule -->
+      </class> <!-- com.syntax.testcases.LeaveModule -->
+      <class name="com.syntax.testcases.PimModule">
+        <test-method status="PASS" signature="validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@23e028a9]" name="validatePimModule" duration-ms="1" started-at="2020-01-24T09:30:12 EST" finished-at="2020-01-24T09:30:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePimModule -->
+      </class> <!-- com.syntax.testcases.PimModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
